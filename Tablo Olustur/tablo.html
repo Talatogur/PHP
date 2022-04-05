@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Çiz</title>
+</head>
+<body>
+    <form action="tablo_ciz.php" method="POST">
+        <h1>Tablo Oluştur</h1>
+        <table>
+            <tr>
+                <td>Satır Sayısı</td>
+                <td><input type="text" name="satir"></td>
+            </tr>
+            <tr>
+                <td>Sütun Sayısı</td>
+                <td><input type="text" name="sutun"></td>
+            </tr>
+            <tr>
+                <td>Birleşecek Satır</td>
+                <td><input type="text" name="satbir"></td>
+            </tr>
+            <tr>
+                <td>Birleşecek Sütun</td>
+                <td><input type="text" name="sutbir"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center"><input type="submit" value="Tablo Çiz"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

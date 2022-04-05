@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Title</title>
+</head>
+<style>
+</style>
+<body>
+<div id="x">0</div>
+<div id="y">0</div>
+ 
+ 
+</body>
+<script>
+//window (taraycı penceresi) üzerinde fare hareket ettirildikçe çalışacak kodlar
+window.onclick=function(fare)
+{
+//gerçekleşen olayla ilgili tüm bilgi olay değişkenine aktarılıyor.
+ 
+var xpos=fare.clientX;
+var ypos=fare.clientY;
+ 
+//clientX: farenin x eksenindeki konumu
+//clientY farenin y eksenindeki konumu
+ 
+document.getElementById('x').innerHTML=xpos;
+document.getElementById('y').innerHTML=ypos;
+ 
+ 
+} 
+</script>
+</html>
